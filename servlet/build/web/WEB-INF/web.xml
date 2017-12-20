@@ -8,6 +8,14 @@
         <servlet-name>HttpServletHeaders</servlet-name>
         <servlet-class>com.shamim.HttpServletHeaders</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>com.urmi.servlet.Test</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UrmiServlet</servlet-name>
+        <servlet-class>com.urmi.servlet.UrmiServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>HttpServletHeaders</servlet-name>
         <url-pattern>/HttpServletHeaders</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UrmiServlet</servlet-name>
+        <url-pattern>/UrmiServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
